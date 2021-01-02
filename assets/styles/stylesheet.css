@@ -1,0 +1,642 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a:hover{
+  color: lightgreen;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /* background: #FFF;  */
+    font-family:'poppins' 'Open Sans', sans-serif;
+}
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+   
+}
+
+body a:hover {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+body a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+   font-family: 'ubuntu','Open Sans', sans-serif;
+   color: white;
+   font-weight: 300;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #888;
+	font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none
+}
+
+/* //Reset Code */
+/*-- header --*/
+
+/* CSS Document */
+
+header {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    font-family: 'lato';
+}
+
+
+
+/* Giving a background-color to the nav container. */
+.navv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100%;
+    
+}
+nav {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    background:linear-gradient(to right,lightgreen,#282828) ;
+    padding: 1em 0;
+
+}
+.logo {
+  display: flex;
+}
+
+
+.mss {
+  width: 20%;
+  
+}
+.mssn-logo{
+  margin-top:1em ;
+}
+
+.logo{
+    letter-spacing: .1em;
+    font-weight:200 ;
+    font-size: 3em;  
+} 
+.menu{
+    letter-spacing: .05em;
+}
+.nav2 div{
+    display: none;
+    width: 20px;
+    transition: all 0.4 ease;
+
+}
+.menu li,
+.nav2 {
+    cursor: pointer;
+    padding-top: 1em; ;
+    margin-right:1em ;
+}
+.line,
+.line,
+.line {
+   background-color:white;
+   height: 2px;
+   margin-top: 5px; 
+} 
+
+#logo a span {
+    color: #fff;
+}
+nav.mnu {
+    width: 90%;
+    text-align: center;
+}
+
+nav:after {
+    clear: both;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+/* Positioning the navigation items inline */
+
+nav ul li {
+    margin: 0px;
+    display: inline-block;
+}
+
+/* Styling the links */
+
+nav a {
+       padding: 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+
+nav ul li ul li:hover {
+    background: #f8f9fa;
+}
+
+/* Background color change on Hover */
+
+nav a:hover {
+    color:lightgreen;
+}
+
+.menu li.active a {
+    color:lightgreen;
+}
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    /* has to be the same number as the "line-height" of "nav a" */
+    top: 10px;
+    background: #fff;
+    padding: 10px;
+}
+
+/* Display Dropdowns on Hover */
+
+nav ul li:hover > ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+
+nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul li a {
+    color: #333;
+    padding: 5px 10px;
+    display: block;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    /* has to be the same number as the "width" of "nav ul ul li" */
+    left: 170px;
+}
+
+
+/* Change ' +' in order to change the Dropdown symbol */
+
+li > a:only-child:after {
+    content: '';
+}
+.map {
+    display: flex;
+    margin: 0 auto;
+}
+.green{
+  color: rgb(72, 146, 72);
+}
+
+
+.container-1{
+  width: 100%;
+  position:relative;
+  
+}
+
+.mosque{
+  width: 100%;
+  filter: brightness(50%)
+}
+.text{
+  position:absolute;
+  top: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto ;
+}
+.welcome{
+  font-weight: bold;
+  font-size: 3em;
+  align-self: center;
+  margin-bottom: .5em;
+}
+.detail{
+  font-style: 2em;
+  line-height: normal;
+  width: 90%;
+  align-self: center;
+  color: white;
+  text-align: center;
+
+}
+.readMore{
+  align-self: center;
+  color: white;
+  background-color:rgb(72, 146, 72);
+  font-size: 1.5em;
+  padding:.8em .7em;
+  border-radius:.4em;
+}
+.container-2{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.feature{
+  margin:1em 0  ;
+  align-self: center;
+}
+.program{
+  margin:1.6em 0  ;
+  align-self: center;
+  width: 90%;
+  justify-content: space-around;
+  line-height: 25px;
+}
+.content{
+  margin: 1em 0;
+  display: flex;
+  margin:0 auto;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.button{
+  margin-top:3em;
+  align-self: center;
+} 
+.readMore2{
+  color: white;
+  background-color:rgb(72, 146, 72);
+  font-size: 1.5em;
+  padding:.9em  .8em;
+  border-radius:.4em;
+}
+.prayer{
+  background-color: rgb(72, 146, 72);
+  margin-top: 3em;
+}
+.feature2{
+ text-align: center;
+ font-size: 2.5em;
+ font-weight: bold;
+ padding: 1em 0;
+}
+.container-3{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1em;
+}
+.col>h3 {
+  font-weight: bold;
+}
+.col >ul>li {
+  margin-top: .5em;
+  color: white;
+}
+footer{
+  background-color:rgb(56, 82, 56) ;
+}
+.container-4{
+  display: flex;
+  width: 100%;
+  color: white;
+  padding:5em 0;
+}
+.container-4 h3{
+  color: #e9e6e6;
+}
+.container-4 ul li a{
+  color: #8b8b8b;
+}
+.container-4 ul li{
+  margin-top: .5em;
+}
+.container-4 a:hover{
+  color: lightgreen;
+}
+.row1 {
+  width: 22%;
+  margin-left: 2em;
+}
+.row{
+  margin-top: 2em;
+  width: 25%;
+  margin-left: 5em;
+}
+.mssn{
+  width: 50%;
+}
+.copy{
+  background:rgb(56, 82, 56) ;
+}
+.copy-right a:hover{
+  color: lightgreen;
+}
+.copy-right{
+  display: flex;
+  margin: 0 auto;
+  background:rgb(56, 82, 56) ;
+}
+.para{
+  font-size: 1em;
+  margin-left:30em ;
+}
+.para a{
+  color: white;
+  font-size: bold;
+}
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width: 330px) {
+
+    nav ul li {
+        display: block;
+        width: 100%;
+      
+    }
+
+}
+
+
+/* //contact */
+/* responsive */
+@media (max-width:700px){
+    body {
+        overflow-x:hidden ;
+    }
+    .navv{
+        display: flex;
+        justify-content: space-between;
+        height:4.5vh ;
+        /* position:absolute; */
+    }
+    .mss{
+      width: 15%;
+    }
+    .mssn{
+      width: 25%;
+    }
+    .menu{
+        position: absolute;
+        right: 0vh;
+        height: 92vh;
+        top: 8.43vh;
+        background:linear-gradient(to top,lightgreen,#282828) ;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items:center;
+        width: 50%;
+        transform: translateX(100%);
+        transition:transform 0.5s ease-in  ;
+    }
+    .menu li{
+         opacity: 0;
+    
+    } 
+    .nav{
+        height: 6vh;
+    }
+    .nav2{
+      padding-top: .5em;
+    }
+    .nav2 div{
+        display: block;
+        /* width: 50%; */
+    }
+    .map{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mssn-logo{
+      margin-top:.5em ;
+    }
+    .mosque{
+      margin-top: 3.8em;
+    }
+    .text{
+      top: 12vh;
+    }
+    .welcome{
+      font-size: 16px;
+ 
+      margin-bottom: .5em;
+    }
+    .detail{
+      font-style: .7em;
+    }
+    .readMore, .readMore2{
+      font-size: 10px;
+      padding:1em;
+      border-radius:.4em;
+    }
+    .content{
+      flex-direction: column;
+    }
+    .button{
+      margin-top: 1.5em;
+    }
+    .container-4{
+      flex-direction: column;
+      padding:2em 0
+    }
+    .row1{
+      width: 80%;
+      margin:0 auto;
+      margin-bottom:1em;
+    }
+    .row{
+      width: 80%;
+      margin:0 auto;
+      margin-bottom: 1em;
+    }
+    .para{
+      font-size: .6em;
+      margin-left: 4em;
+    }
+
+}
+.nav-active{
+    transform: translateX(0%); 
+}
+
+@keyframes navLinkfade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+    opacity: 1;
+    transform: translateX(0px);
+    }
+}
+
+.toggle .one{
+    transform: rotate(-45deg) translate(-5px,6px );
+}
+.toggle .two{
+    opacity: 0;
+}
+.toggle .three{
+    transform: rotate(45deg) translate(-5px,  -6px );
+}
+
+
+
+@media(max-width: 1366px) {
+	nav.mnu {
+    width: 65%;
+}
+}
+
+
+@media(max-width: 1080px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        padding: 2px 0;
+    }
+
+    a.reqe-button {
+        font-size: 14px;
+    }
+
+    .stats_info i {
+        font-size: 38px;
+    }
+
+    .stats_info p {
+        font-size: 40px;
+    }
+
+    .stats_info h4 {
+        font-size: 15px;
+    }
+
+    .main-stats-inner-img,
+    .main-stats-inner-img.two {
+        min-height: 330px;
+    }
+
+    .stats_info {
+        margin-top: 6em;
+    }
+
+    .contact-info h4 {
+        font-size: 15px;
+    }
+
+    .map iframe {
+        min-height: 330px;
+    }
+	nav.mnu {
+    width: 100%;
+}
+}
+
+@media(max-width: 1050px) {
+
+}
+
+@media(max-width: 1024px) {
+   
+}
+.news {
+    padding: 4em 0;
+}
+
+@media(max-width: 900px) {
+
+}
+
+@media(max-width: 800px) {
+
+}
+
+@media(max-width: 768px) {
+   h1.heading {
+    font-size: 2.7em;
+}
+.advantage_left p {
+    font-size: 1em;
+}
+
+}
