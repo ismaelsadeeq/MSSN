@@ -446,8 +446,11 @@ footer{
         height:4.5vh ;
         /* position:absolute; */
     }
+    .h1{
+      margin-left: .5em;
+    }
     .mss{
-      width: 15%;
+      display: none;
     }
     .mssn{
       width: 25%;
@@ -459,12 +462,14 @@ footer{
         top: 8.43vh;
         background:linear-gradient(to top,lightgreen,#282828) ;
         display: flex;
-        justify-content: space-around;
         flex-direction: column;
         align-items:center;
         width: 50%;
         transform: translateX(100%);
         transition:transform 0.5s ease-in  ;
+    }
+    .item{
+      margin-bottom: 1.5em;
     }
     .menu li{
          opacity: 0;
