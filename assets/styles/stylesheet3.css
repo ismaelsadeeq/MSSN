@@ -1,0 +1,195 @@
+
+h1,h2,h3,h4 {
+  color: #888;
+  font-weight: 500;
+}
+.container {
+  overflow: hidden;
+}
+ .about {
+  padding-top:3.3em ;
+  width: 100%;
+}
+.body {
+  color: black;
+}
+.about-page h4 {
+  font-size: 1.5em;
+  color:white;
+}
+.about-page div {
+  margin-top:.3em ;
+  background-color: white;
+  height: .2em; 
+}
+.about-page {
+  position:absolute;
+  margin-top:-20em ;
+  left: 47%;
+}
+.details {
+  position:absolute;
+  margin-top:-15em ; 
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  left: 25%;
+}
+.details p {
+  font-family: ubuntu;
+  color: white;
+  text-align: center;
+}
+.info {
+  padding-top: 3em;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.aim {
+  padding-top:1em ;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+.mission {
+  width: 60%;
+}
+.objectives {
+  padding: 1em  0em;
+  color: #888;
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+.list li{
+  margin-left: 1.5em;
+  padding: .5em  0em;
+  list-style: square;
+}
+.programs {
+  background-color:rgb(56, 82, 56);
+}
+.programs-container {
+  color: white;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-bottom:1.5em ;
+}
+.programs-container div {
+  padding: .5em 0;
+}
+.programs h4 {
+  font-size: 2em;
+  margin-left: 7em;
+  color: white;
+  padding: 1em 0;
+}
+.table div{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+
+@media (max-width:700px){
+  body {
+      overflow-x:hidden ;
+  }
+  .about-page {
+    position:absolute;
+    margin-top:-4em ;
+    left: 38%;
+    margin-bottom: 0;
+  }
+  .about {
+    width: 100%;
+    padding-top:3.3em ;
+  }
+  .about-page h4 {
+    font-size: 1em;
+    color:white;
+  }
+  .about-page div {
+    margin-top:.0em ;
+    background-color: white;
+    height: .05em;
+  }
+  .details {
+    position: relative;;
+    margin-top:1em ; 
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    left: 13%;
+  }
+  .details p {
+    font-size: .2em;
+    font-family: ubuntu;
+    color: #333;
+    text-align: start;
+  }
+  .info {
+    padding-top: 0%;
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+  } 
+  .info p {
+    font-size:.2em ;
+  }
+  .aim{
+    padding-top: 1em;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .aim p {
+    font-size: .2em;
+  }
+  .objectives {
+    color: #888;
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .list li{
+    font-size: .2em;
+    list-style: square;
+  }
+  .programs h4 {
+    font-size: .7em;
+    margin-left: 4em;
+    color: white;
+    padding: 1em 0;
+  }
+  .programs-container div {
+    padding: 0 0;
+    font-size: .5em;
+  }
+  .table {
+    width: 100%;
+    overflow: hidden;
+  }
+  .table div{
+    font-size: .1em;
+  }
+  td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 5px;
+  }
+}
