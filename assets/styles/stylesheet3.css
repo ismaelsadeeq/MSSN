@@ -141,7 +141,7 @@ td, th {
     left: 13%;
   }
   .details p {
-    font-size: .2em;
+    font-size: .5em;
     font-family: ubuntu;
     color: #333;
     text-align: start;
@@ -153,7 +153,7 @@ td, th {
     width: 75%;
   } 
   .info p {
-    font-size:.2em ;
+    font-size:.5em ;
   }
   .aim{
     padding-top: 1em;
