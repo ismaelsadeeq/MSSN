@@ -381,6 +381,9 @@ footer{
 .container-4 ul li a{
   color: #8b8b8b;
 }
+.container-4 ul li {
+  color: #8b8b8b;
+}
 .container-4 ul li{
   margin-top: .5em;
 }
