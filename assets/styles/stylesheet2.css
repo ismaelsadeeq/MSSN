@@ -4,12 +4,12 @@
   justify-content: space-around;
 }
 .under h3 {
-  color:green;
+  color:#557D55;
   margin-bottom: 6.5em;
   font-weight: 400;
 }
 .link{
-  background-color: green;
+  background-color: #557D55;
   width: 40%;
   padding: 1em;
   border-radius: .5em;
