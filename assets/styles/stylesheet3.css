@@ -1,6 +1,6 @@
 
 h1,h2,h3,h4 {
-  color: #888;
+  color: grey ;
   font-weight: 500;
 }
 .container {
@@ -11,7 +11,7 @@ h1,h2,h3,h4 {
   width: 100%;
 }
 .body {
-  color: black;
+  color:#333;
 }
 .about-page h4 {
   font-size: 1.5em;
@@ -68,11 +68,13 @@ h1,h2,h3,h4 {
   padding: .5em  0em;
   list-style: square;
 }
-.programs {
-  background-color:rgb(56, 82, 56);
+
+.table{
+  padding-top:10em;
+  padding-bottom: 8gitem;
 }
+
 .programs-container {
-  color: white;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -85,7 +87,6 @@ h1,h2,h3,h4 {
 .programs h4 {
   font-size: 2em;
   margin-left: 7em;
-  color: white;
   padding: 1em 0;
 }
 .table div{
@@ -96,11 +97,14 @@ h1,h2,h3,h4 {
 table {
   border-collapse: collapse;
   width: 100%;
-  color: white;
+  color:#333;
+}
+.data {
+  color: #333;
 }
 
 td, th {
-  border: 1px solid white;
+  border: 1px solid#333;
   text-align: left;
   padding: 8px;
 }
@@ -173,11 +177,11 @@ td, th {
   .programs h4 {
     font-size: .7em;
     margin-left: 4em;
-    color: white;
+    color:#333;
     padding: 1em 0;
   }
   .programs-container div {
-    padding: 0 0;
+    color: #333 !important; 
     font-size: .5em;
   }
   .table {
@@ -188,8 +192,13 @@ td, th {
     font-size: .1em;
   }
   td, th {
-    border: 1px solid white;
+    border: 1px solid #333;
     text-align: left;
     padding: 5px;
   }
+
+.table{
+  padding-top: 6em;
+  padding-bottom: 3em;
+}
 }
